@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_top5_current"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="Nov 17th"
+        android:checkable="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_top5_last_week"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="Nov 10th"
+        android:checkable="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_top5_2_weeks_ago"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="Nov 3rd"
+        android:checkable="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_top5_3_weeks_ago"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_calendar"
+        android:title="Oct 27th"
+        android:checkable="true"
+        app:showAsAction="always|withText" />
+</menu>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:title="@string/text_favorites"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@drawable/ic_access_time_white_24dp"
+        android:title="@string/text_schedules"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_music"
+        android:enabled="true"
+        android:icon="@drawable/ic_audiotrack_white_24dp"
+        android:title="@string/text_music"
+        app:showAsAction="ifRoom" />
+</menu>
+
+-->
